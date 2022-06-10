@@ -1,6 +1,6 @@
 @media only screen and (max-width: 600px) {
   body {
-    background-size: 280%;
+    background-size: 300%;
   }
   header form #input_city {
     width: 300px;
