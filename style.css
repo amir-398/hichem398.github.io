@@ -7,27 +7,29 @@ body {
 header form {
   display: flex;
   flex-direction: column;
-  margin-left: 30%;
-  margin-right: 30%;
+
+  align-items: center;
 }
 
 header form #input_city {
-  height: 30px;
+  height: 40px;
   border: none;
   border-radius: 10px;
   box-shadow: 0 0 4px black;
   margin-bottom: 15px;
   margin-top: 10px;
+  width: 600px;
 }
+
 header form #input_city:focus {
   outline: none;
   box-shadow: 0 0 10px #5890eb;
 }
 header form #show_btn {
+  width: 450px;
   border-radius: 15px;
-  height: 25px;
+  height: 30px;
   background-color: white;
-  margin: 0 20px;
   cursor: pointer;
   border: 1px solid black;
 }
