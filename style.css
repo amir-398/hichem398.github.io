@@ -1,0 +1,94 @@
+body {
+  background-color: blanchedalmond;
+  background: url("img/bckgrd.jpg") no-repeat;
+  background-size: cover;
+  font-family: "Nuosu SIL", serif;
+}
+header form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+header form #input_city {
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 4px black;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+header form #input_city:focus {
+  outline: none;
+  box-shadow: 0 0 10px #5890eb;
+}
+header form #show_btn {
+  border-radius: 15px;
+  height: 25px;
+  background-color: white;
+  margin: 0 20px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+.temp {
+  background-color: rgb(73, 98, 118, 0.8);
+}
+.vent {
+  background-color: rgba(51, 70, 90, 0.8);
+}
+.hum {
+  background-color: rgba(25, 124, 226, 0.8);
+}
+.ville {
+  background-color: rgba(25, 157, 226, 0.8);
+}
+.temp,
+.vent,
+.hum,
+.ville {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  text-align: center;
+}
+.col_left,
+.col_right {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.weither {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+#show_temp {
+  display: flex;
+  flex-direction: column;
+}
+.temp {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  align-items: center;
+}
+#show_temp,
+#show_town,
+#show_hum,
+#show_wind {
+  display: flex;
+  flex-direction: column;
+  font-size: 35px;
+}
+#adv {
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+}

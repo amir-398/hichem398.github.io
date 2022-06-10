@@ -4,70 +4,55 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
     <title>Document</title>
   </head>
   <body>
-    <h1>cours github</h1>
-    <h2>V2</h2>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
-      dolorem porro atque ipsam itaque illo iusto. Tenetur voluptatibus vero,
-      maiores nobis laudantium aliquid praesentium ea et? Laborum natus aut
-      voluptatem.
-    </p>
-    <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, quasi
-      sunt. Ut assumenda cupiditate asperiores aspernatur. Reprehenderit nobis
-      natus ex expedita veniam labore asperiores esse ad et facere odio, optio
-      repellendus quia reiciendis perferendis nulla doloremque fugit dolorum,
-      error sapiente nihil sit necessitatibus nemo delectus? Blanditiis pariatur
-      fuga accusamus doloribus. Laborum obcaecati repudiandae, ea architecto
-      quisquam assumenda excepturi voluptas vero nostrum blanditiis et iure eius
-      necessitatibus minima aperiam unde sed error, accusantium natus ipsam
-      doloremque voluptates nam odit? Dolorem libero iusto ab? Fugiat ex modi
-      doloremque beatae dolore assumenda, commodi ipsa voluptatem numquam
-      consectetur dolorem omnis alias aspernatur distinctio accusamus
-      exercitationem dignissimos deleniti magni odio repudiandae vitae?
-      Provident ea reiciendis quidem. Distinctio, dolor ducimus natus similique
-      doloremque vero, commodi omnis tenetur suscipit repudiandae odio
-      voluptatem molestias doloribus illo magni sapiente necessitatibus animi.
-      Aut exercitationem omnis, id illum commodi porro ipsum optio sed animi
-      tenetur totam fugit deserunt assumenda tempora libero consectetur
-      dignissimos minus excepturi, nihil temporibus. Aspernatur distinctio,
-      tempore nobis reprehenderit rerum tempora sunt error ducimus perferendis
-      necessitatibus nam iusto praesentium saepe ipsa vel eveniet explicabo
-      corporis ex impedit similique odit. Unde voluptates alias veniam eligendi
-      veritatis cupiditate a et. Ducimus cupiditate esse magnam sequi velit
-      illum repudiandae ullam quia sunt eaque, totam pariatur laudantium commodi
-      saepe assumenda quidem eos nisi vero? Quia, quos dolore nemo aliquid
-      cupiditate quam aperiam ipsa debitis. Quaerat repellat deserunt maxime
-      dicta iure placeat obcaecati ex quam, veniam, perspiciatis vitae omnis
-      quis consequuntur et ullam quas excepturi natus sequi. Praesentium aliquam
-      alias blanditiis quibusdam ipsum commodi explicabo modi reprehenderit
-      itaque sint facilis sequi, assumenda quaerat cupiditate maiores excepturi,
-      quo culpa ut voluptatum iure possimus asperiores repellat reiciendis nam.
-      Laboriosam est iure cum blanditiis porro ab quisquam sit velit nesciunt
-      optio eaque laborum cupiditate sed, esse itaque deserunt voluptates.
-      Quaerat ipsa temporibus neque ea qui incidunt fuga. Repellat laborum nulla
-      eaque corporis. Deleniti, itaque tenetur. Totam a illum exercitationem
-      facere iure reiciendis aut dolor eius eum laboriosam. Tenetur voluptas
-      fugit natus at nesciunt. Fugiat sed dicta exercitationem necessitatibus
-      perspiciatis eveniet voluptate repellendus culpa corrupti corporis!
-      Doloremque distinctio, inventore consequuntur mollitia dolores neque ipsam
-      enim ipsa doloribus, cumque veniam. Tempora, amet! Error corporis iure
-      deserunt, fugiat debitis, praesentium impedit pariatur, aut nihil
-      provident dolore ipsum officia consequuntur cumque blanditiis distinctio
-      asperiores. Repellendus, quas dolores ipsam quam repellat odio quae
-      aspernatur eligendi, placeat corporis sit accusamus id nostrum delectus
-      explicabo ad, quos aliquid asperiores voluptatum aperiam! Beatae, quo.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim esse maxime
-      provident quibusdam dolor? Unde accusantium corporis, nulla quis minus
-      earum ut nam officiis? Culpa officia repellendus eveniet vero. Nisi illo,
-      asperiores reiciendis deserunt dignissimos eos atque dolores earum,
-      aliquid laudantium quae ipsa cum voluptatibus eius officia ratione quod
-      odit!
-    </p>
+    <header>
+      <form id="input_town">
+        <input
+          type="text"
+          id="input_city"
+          name="ville"
+          placeholder="Entrez votre ville ici"
+        />
+        <small id="adv"></small>
+        <input id="show_btn" type="submit" name="show_btn" value="voir" />
+      </form>
+    </header>
+    <div class="weither">
+      <div class="col_left">
+        <div class="ville">
+          <h1>ville</h1>
+          <h3 id="show_town"></h3>
+        </div>
+        <div class="hum">
+          <h1>humidité</h1>
+          <h3 id="show_hum"></h3>
+        </div>
+      </div>
+      <div class="col_right">
+        <div class="temp">
+          <h1>temperature</h1>
+          <h3 id="show_temp"></h3>
+        </div>
+        <div class="vent">
+          <h1>vent</h1>
+          <h3 id="show_wind"></h3>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
